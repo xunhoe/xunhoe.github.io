@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MinhT's Portfolio</title>
+<!--
+    - custom css link
+  -->
+<link href="./assets/css/style.css" rel="stylesheet"/>
+<!--
+    - google font link
+  -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+</head>
+<body>
+<!--
+    - #MAIN
+  -->
+<main>
+<!--
+      - #SIDEBAR
+    -->
+<aside class="sidebar" data-sidebar="">
+<div class="sidebar-info">
+<figure class="avatar-box">
+<img alt="Bui Quang Minh Tam" src="./assets/images/my-avatar.png" width="80"/>
+</figure>
+<div class="info-content">
+<h1 class="name" title="Bui Quang Minh Tam">Bui Quang Minh Tam</h1>
+<p class="title">Photographer</p>
+</div>
+<button class="info_more-btn" data-sidebar-btn="">
+<span>Show Contacts</span>
+<ion-icon name="minhtxgenz"></ion-icon>
+</button>
+</div>
+<div class="sidebar-info_more">
+<div class="separator"></div>
+<ul class="contacts-list">
+<li class="contact-item">
+<div class="icon-box">
+<ion-icon name="mail-outline"></ion-icon>
+</div>
+<div class="contact-info">
+<p class="contact-title">Email</p>
+<a class="contact-link" href="mailto:buiminhtamvbk@gmail.com">buiminhtamvbk@gmail.com</a>
+</div>
+</li>
+<li class="contact-item">
+<div class="icon-box">
+<ion-icon name="phone-portrait-outline"></ion-icon>
+</div>
+<div class="contact-info">
+<p class="contact-title">Phone</p>
+<a class="contact-link" href="tel:+84 917864448">+84 917 864 448</a>
+</div>
+</li>
+<li class="contact-item">
+<div class="icon-box">
+<ion-icon name="calendar-outline"></ion-icon>
+</div>
+<div class="contact-info">
+<p class="contact-title">Birthday</p>
+<time datetime="2006-11-29">Nov 29, 2006</time>
+</div>
+</li>
+<li class="contact-item">
+<div class="icon-box">
+<ion-icon name="location-outline"></ion-icon>
+</div>
+<div class="contact-info">
+<p class="contact-title">Location</p>
+<address>Nha Trang, Khanh Hoa, Viet Nam</address>
+</div>
+</li>
+</ul>
+<div class="separator"></div>
+<ul class="social-list">
+<li class="social-item">
+<a class="social-link" href="https://facebook.com/minhtxgenz">
+<ion-icon name="logo-facebook"></ion-icon>
+</a>
+</li>
+<li class="social-item">
+<a class="social-link" href="https://twitter.com/MinhTXGENZ">
+<ion-icon name="logo-twitter"></ion-icon>
+</a>
+</li>
+<li class="social-item">
+<a class="social-link" href="https://www.instagram.com/minhtxg/">
+<ion-icon name="logo-instagram"></ion-icon>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<!--
+      - #main-content
+    -->
+<div class="main-content">
+<!--
+        - #NAVBAR
+      -->
+<nav class="navbar">
+<ul class="navbar-list">
+<li class="navbar-item">
+<button class="navbar-link active" data-nav-link="">About</button>
+</li>
+<li class="navbar-item">
+<button class="navbar-link" data-nav-link="">Resume</button>
+</li>
+<li class="navbar-item">
+<button class="navbar-link" data-nav-link="">Portfolio</button>
+</li>
+</ul>
+</nav>
+<!--
+        - #ABOUT
+      -->
+<article class="about active" data-page="about">
+<header>
+<h2 class="h2 article-title">About me</h2>
+</header>
+<section class="about-text">
+<p>
+            I'm Photographer and Audio Engineer from Nha Trang, Khanh Hoa. Working as Photographer in Event, Concept,
+            Portrait Photography and as Music Producer in Music Production.
+          </p>
+</section>
+<!--
+          - service
+        -->
+<section class="service">
+<h3 class="h3 service-title">What i'm doing</h3>
+<ul class="service-list">
+<li class="service-item">
+<div class="service-icon-box">
+<img alt="camera icon" src="./assets/images/icon-photo.svg" width="40"/>
+</div>
+<div class="service-content-box">
+<h4 class="h4 service-item-title">Photography</h4>
+<p class="service-item-text">
+                  2+ Years experience in Photography.
+                </p>
+</div>
+</li>
+<li class="service-item">
+<div class="service-icon-box">
+<img alt="camera icon" src="./assets/images/icon-photo.svg" width="40"/>
+</div>
+<div class="service-content-box">
+<h4 class="h4 service-item-title">Camera Operator</h4>
+<p class="service-item-text">
+                  1+ Years experience at Camera Operator role.
+                </p>
+</div>
+</li>
+<li class="service-item">
+<div class="service-icon-box">
+<img alt="camera icon" src="./assets/images/icon-photo.svg" width="40"/>
+</div>
+<div class="service-content-box">
+<h4 class="h4 service-item-title">Audio Mixing and Mastering</h4>
+<p class="service-item-text">
+                  5+ Years experience at Audio Enginneer.
+                </p>
+</div>
+</li>
+</ul>
+</section>
+<div class="overlay" data-overlay=""></div>
+<button class="modal-close-btn" data-modal-close-btn="">
+<ion-icon name="close-outline"></ion-icon>
+</button>
+</article>
+<!--
+        - #RESUME
+      -->
+<article class="resume" data-page="resume">
+<header>
+<h2 class="h2 article-title">Resume</h2>
+</header>
+<section class="timeline">
+<div class="title-wrapper">
+<div class="icon-box">
+<ion-icon name="book-outline"></ion-icon>
+</div>
+<h3 class="h3">Education</h3>
+</div>
+<ol class="timeline-list">
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Le Quy Don High School for the Gifted</h4>
+<span>2020 - 2024</span>
+<p class="timeline-text">
+                Student in IT Major class.
+              </p>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">IUH - Industry University of Ho Chi Minh city</h4><span>2024 -
+                Present</span>
+<p class="timeline-text">FET - Faculty of Electronics Technology</p>
+</li>
+</ol>
+</section>
+<section class="timeline">
+<div class="title-wrapper">
+<div class="icon-box">
+<ion-icon name="book-outline"></ion-icon>
+</div>
+<h3 class="h3">Experience</h3>
+</div>
+<ol class="timeline-list">
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Co - Founder/Photographer at LMC - Le Quy Don Media Club</h4>
+<span>2023 - Present</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Co - Pioneer/Photographer at Block17</h4>
+<span>2023</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Vice Head Design/Photography Department at LỚN CÙNG EM Social Project
+              </h4>
+<span>2023 - 2024</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Photographer/Stage Technician at Prom Le Quy Don 2023 - 2024</h4>
+<span>2023 - 2024</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Photographer/Stage Technician at Halloween Khanh Hoa 2023</h4>
+<span>2023</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Photographer at Le Quy Don Social Project</h4>
+<span>2023 - 2024</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Photographer at Khanh Hoa Youth Model United Nations - KYMUN</h4>
+<span>2023</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Photographer at LQĐ Bestminton</h4>
+<span>2023</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Stage Technician at Slide On String 2024</h4>
+<span>2024</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Stage Technician at Thiên Thanh 2024</h4>
+<span>2024</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Freelance Camera Operator</h4>
+<span>2022 - Present</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Music Producer at XGENZ Music Team</h4>
+<span>2018 - Present</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">BOH Engineer at 96K Live Team</h4><span>2024 - Present</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Stage Technician at EUH - ISB Euphoria's Echo</h4><span>2024</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Lightning Technician at La Music</h4><span>2024</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Photographer at IUH - Xung Kich The Cultural Performance</h4><span>2024
+                - Present</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">Photographer at IUH - Faculty of Electronics Technology</h4><span>2024
+                - Present</span>
+</li>
+<li class="timeline-item">
+<h4 class="h4 timeline-item-title">BOH Engineer at SOA - Sound Of Animeshon</h4>
+<span>2024</span>
+</li>
+<li class="timeline-item"><h4 class="h4 timeline-item-title">FOH/BOH Engineer at ADAM Solution</h4><span>2025 - Present</span></li></ol>
+</section>
+<section class="skill">
+<h3 class="h3 skills-title">My skills</h3>
+<ul class="skills-list content-card">
+<li class="skills-item">
+<div class="title-wrapper">
+<h5 class="h5">Photography</h5>
+<data value="70">70%</data>
+</div>
+<div class="skill-progress-bg">
+<div class="skill-progress-fill" style="width: 70%;"></div>
+</div>
+</li>
+<li class="skills-item">
+<div class="title-wrapper">
+<h5 class="h5">Videography</h5>
+<data value="60">60%</data>
+</div>
+<div class="skill-progress-bg">
+<div class="skill-progress-fill" style="width: 60%;"></div>
+</div>
+</li>
+<li class="skills-item">
+<div class="title-wrapper">
+<h5 class="h5">Audio Mixing</h5>
+<data value="90">90%</data>
+</div>
+<div class="skill-progress-bg">
+<div class="skill-progress-fill" style="width: 90%;"></div>
+</div>
+</li>
+<li class="skills-item">
+<div class="title-wrapper">
+<h5 class="h5">Music Producing</h5>
+<data value="80">80%</data>
+</div>
+<div class="skill-progress-bg">
+<div class="skill-progress-fill" style="width: 80%;"></div>
+</div>
+</li>
+</ul>
+</section>
+</article>
+<!--
+        - #PORTFOLIO
+      -->
+<article class="portfolio" data-page="portfolio">
+<header>
+<h2 class="h2 article-title">Portfolio</h2>
+</header>
+<section class="projects">
+<ul class="filter-list">
+<li class="filter-item">
+<button class="active" data-filter-btn="">All</button>
+</li>
+<li class="filter-item">
+<button data-filter-btn="">Events Shooting</button>
+</li>
+<li class="filter-item">
+<button data-filter-btn="">Studio Shooting</button>
+</li>
+<li class="filter-item">
+<button data-filter-btn="">Yearbook Shooting</button>
+</li>
+<li class="filter-item">
+<button data-filter-btn="">Street Shooting</button>
+</li>
+<li class="filter-item">
+<button data-filter-btn="">Concepts Shooting</button>
+</li>
+</ul>
+<div class="filter-select-box">
+<button class="filter-select" data-select="">
+<div class="select-value" data-selecct-value="">Select category</div>
+<div class="select-icon">
+<ion-icon name="minhtxgenz"></ion-icon>
+</div>
+</button>
+<ul class="select-list">
+<li class="select-item">
+<button data-select-item="">All</button>
+</li>
+<li class="select-item">
+<button data-select-item="">Events Shooting</button>
+</li>
+<li class="select-item">
+<button data-select-item="">Weddings Shooting</button>
+</li>
+<li class="select-item">
+<button data-select-item="">Concepts Shooting</button>
+</li>
+</ul>
+</div>
+<ul class="project-list">
+<li class="project-item active" data-category="events shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/e5U7dsvKbehUst27A">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Prom Le Quy Don 2023" loading="lazy" src="./assets/images/Portfolio/prom_2023.jpg"/>
+</figure>
+<h3 class="project-title">Prom Le Quy Don 2023</h3>
+<p class="project-category">Events Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="events shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/n2m1Gz1xMCqcivVBA">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Halloween Khanh Hoa 2023" loading="lazy" src="./assets/images/Portfolio/hlw_2023.jpg"/>
+</figure>
+<h3 class="project-title">Halloween Khanh Hoa 2023</h3>
+<p class="project-category">Events Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="events shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/3qB3aMdZwRgLa3yd6">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Miss And Mister Nguyen Van Troi 2024" loading="lazy" src="./assets/images/Portfolio/m&amp;m_2024.jpg"/>
+</figure>
+<h3 class="project-title">Miss And Mister Nguyen Van Troi 2024</h3>
+<p class="project-category">Events Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="events shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/cFK2oE3wMxz5t5pF7">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Fulbright Khánh Hoà" loading="lazy" src="./assets/images/Portfolio/fuv_2024.jpg"/>
+</figure>
+<h3 class="project-title">Fulbright Khánh Hoà</h3>
+<p class="project-category">Events Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/SUEBUYqruVi1vBTB7">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Diệu Ngân - Hương Giang - Mỹ Kim" loading="lazy" src="./assets/images/Portfolio/dieungan_tet.jpg"/>
+</figure>
+<h3 class="project-title">Diệu Ngân - Hương Giang - Mỹ Kim</h3>
+<p class="project-category">Concept Tết - Chợ Đầm</p>
+</a>
+</li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/HNBW4PiW1B9bABoBA">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Mai Anh" loading="lazy" src="./assets/images/Portfolio/maianh_tet.jpg"/>
+</figure>
+<h3 class="project-title">Mai Anh - Thanh Thảo</h3>
+<p class="project-category">Concept Tết - Chợ Đầm</p>
+</a>
+</li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/EJn8qUmFwHt7qYyF6">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Minh Khuê" loading="lazy" src="./assets/images/Portfolio/susu_tet.jpg"/>
+</figure>
+<h3 class="project-title">Minh Khuê</h3>
+<p class="project-category">Concept Tết - Chợ Đầm</p>
+</a>
+<li class="project-item active" data-category="concepts shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/qpFgRwAQm4jrshtd7">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Thảo Vân" loading="lazy" src="./assets/images/Portfolio/van_tet.jpg"/>
+</figure>
+<h3 class="project-title">Thảo Vân</h3>
+<p class="project-category">Concept Tết - Chợ Đầm</p>
+</a>
+</li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item="">
+<a href="https://drive.google.com/drive/folders/1AMcMDidfdsRgMy2ZBT37CefLYsXahp7z">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Diệu Ngân" loading="lazy" src="./assets/images/Portfolio/dieungan_nangtho.jpg"/>
+</figure>
+<h3 class="project-title">Diệu Ngân</h3>
+<p class="project-category">Concept Nàng Thơ</p>
+</a>
+</li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/GPk3aUfkkwKW9VqD7">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Thanh Ngân" loading="lazy" src="./assets/images/Portfolio/thanhngan_nangtho.jpg"/>
+</figure>
+<h3 class="project-title">Thanh Ngân</h3>
+<p class="project-category">Concept Nàng Thơ</p>
+</a>
+</li>
+<li class="project-item active" data-category="street shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/d6iGPLwex7nTkCJH7">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Mailisa SuperCar" loading="lazy" src="./assets/images/Portfolio/mailisa_street.jpg"/>
+</figure>
+<h3 class="project-title">Mailisa SuperCar</h3>
+<p class="project-category">Street Photography</p>
+</a>
+</li>
+</li>
+<li class="project-item active" data-category="sport shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/UiYfT3L5GALz7rsGA">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="12 Tin Match" loading="lazy" src="./assets/images/Portfolio/12tin_sport.jpg"/>
+</figure>
+<h3 class="project-title">King Cup - Final - 12Tin X 12Anh1</h3>
+<p class="project-category">Sport Photography</p>
+</a>
+</li>
+<li class="project-item active" data-category="yearbook shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/b5vCSDGQTYwZJqn57">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Ky Yeu Hoang Ngoc Truc Quynh" loading="lazy" src="./assets/images/Portfolio/hntq_kyyeu.jpg"/>
+</figure>
+<h3 class="project-title">Kỷ Yếu Hoàng Ngọc Trúc Quỳnh</h3>
+<p class="project-category">Yearbook Photoshoot</p>
+</a>
+</li>
+<li class="project-item active" data-category="yearbook shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/ptXUCVkZjK3EKmB97">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Ky Yeu Nguyen Nguyen Ngoc" loading="lazy" src="./assets/images/Portfolio/nguyenngoc_kyyeu.jpg"/>
+</figure>
+<h3 class="project-title">Kỷ Yếu Nguyễn Nguyên Ngọc</h3>
+<p class="project-category">Yearbook Photoshoot</p>
+</a>
+</li>
+<li class="project-item active" data-category="events shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/aukn1Dc1uTnepVKXA">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="La Memoire Nguyen Van Troi 2024" loading="lazy" src="./assets/images/Portfolio/lamemoirie_2024.jpg"/>
+</figure>
+<h3 class="project-title">La Memoire Nguyễn Văn Trỗi 2024</h3>
+<p class="project-category">Events Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="events shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/Ya5XPDbJjLp5h2EKA">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Thiên Thanh - Lê Quý Đôn 2024" loading="lazy" src="./assets/images/Portfolio/thienthanh_2024.jpg"/>
+</figure>
+<h3 class="project-title">Thiên Thanh - Lê Quý Đôn 2024</h3>
+<p class="project-category">Events Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="studio shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/phYoxkTWHABBzUfg9">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Lon Cung Em BTC Shooting" loading="lazy" src="./assets/images/Portfolio/lce_btc_stu.jpg"/>
+</figure>
+<h3 class="project-title">Lớn Cùng Em Studio Shooting</h3>
+<p class="project-category">Studio Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="events shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/MCy3rtinBR7jxUuBA">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Trai 26/3 TQT-chieu" loading="lazy" src="./assets/images/Portfolio/traitqt_sang_event.jpg"/>
+</figure>
+<h3 class="project-title">Hội Trại 26/3 Trần Quốc Toản - Chiều</h3>
+<p class="project-category">Events Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="events shooting" data-filter-item="">
+<a href="https://photos.app.goo.gl/1XytMARK8FU1wRJT7">
+<figure class="project-img">
+<div class="project-item-icon-box">
+<ion-icon name="eye-outline"></ion-icon>
+</div>
+<img alt="Trai 26/3 TQT-toi" loading="lazy" src="./assets/images/Portfolio/traitqt_toi_event.jpg"/>
+</figure>
+<h3 class="project-title">Hội Trại 26/3 Trần Quốc Toản - Tối</h3>
+<p class="project-category">Events Shooting</p>
+</a>
+</li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item=""><a href="https://photos.app.goo.gl/aH1tEgUwAowczDvr8">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Thanh Thảo - Sinh Nhật" loading="lazy" src="/assets/images/Portfolio/thanhthao_nangtho.jpg"/>
+</figure>
+<h3 class="project-title">Thanh Thảo - Sinh Nhật</h3>
+<p class="project-category">concepts shooting</p>
+</a></li>
+<li class="project-item active" data-category="studio shooting" data-filter-item=""><a href="https://photos.app.goo.gl/8szEmpaQNcNCMKLj7">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Bảo Ngọc Family Shooting" loading="lazy" src="assets/images/Portfolio/baongoc_studio.jpg"/>
+</figure>
+<h3 class="project-title">Bảo Ngọc Family Shooting</h3>
+<p class="project-category">studio shooting</p>
+</a></li>
+<li class="project-item active" data-category="events shooting" data-filter-item=""><a href="https://photos.app.goo.gl/Sk9owzX3R7hR9MqM9">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="FET Music - Chung Kết" loading="lazy" src="assets/images/Portfolio/fetmusic2024.jpg"/>
+</figure>
+<h3 class="project-title">FET Music - Chung Kết</h3>
+<p class="project-category">events shooting</p>
+</a></li>
+<li class="project-item active" data-category="events shooting" data-filter-item=""><a href="https://photos.app.goo.gl/Bi6iuRKtK3YY6xfe7">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Xung Kích - IUH - Rehearsal Khai Giảng IUH 2024" loading="lazy" src="assets/images/Portfolio/xungkich_rhs.jpg"/>
+</figure>
+<h3 class="project-title">Xung Kích - IUH - Rehearsal Khai Giảng IUH 2024</h3>
+<p class="project-category">events shooting</p>
+</a></li>
+<li class="project-item active" data-category="events shooting" data-filter-item=""><a href="https://photos.app.goo.gl/ephRW9oj7WnwJiRh7">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Xung Kích - IUH - Riverside Palace" loading="lazy" src="assets/images/Portfolio/xungkich_rvs.jpg"/>
+</figure>
+<h3 class="project-title">Xung Kích - IUH - Riverside Palace</h3>
+<p class="project-category">events shooting</p>
+</a></li>
+<li class="project-item active" data-category="events shooting" data-filter-item=""><a href="https://photos.app.goo.gl/sa66T1DkYk37g3tD9">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Xung Kích - IUH - ĐH Văn Hiến" loading="lazy" src="assets/images/Portfolio/xungkich_vanhien.jpg"/>
+</figure>
+<h3 class="project-title">Xung Kích - IUH - ĐH Văn Hiến</h3>
+<p class="project-category">events shooting</p>
+</a></li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item=""><a href="https://photos.app.goo.gl/QvTsNXvkuBZfVWpW9">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Bùi Quang Minh Tâm - Family Shooting" loading="lazy" src="assets/images/Portfolio/bqmt_fam.jpg"/>
+</figure>
+<h3 class="project-title">Bùi Quang Minh Tâm - Family Shooting</h3>
+<p class="project-category">concepts shooting</p>
+</a></li>
+<li class="project-item active" data-category="events shooting" data-filter-item=""><a href="https://photos.app.goo.gl/sxCLSJXP1poRvt6m6">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Buidstreet - HCM" loading="lazy" src="assets/images/Portfolio/buildstreet_hcm.jpg"/>
+</figure>
+<h3 class="project-title">Buidstreet - HCM</h3>
+<p class="project-category">events shooting</p>
+</a></li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item=""><a href="https://photos.app.goo.gl/e66o41KV3a2ofqXQ7">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Khánh Vy - Street Concept" loading="lazy" src="assets/images/Portfolio/khanhvy_concept.jpg"/>
+</figure>
+<h3 class="project-title">Khánh Vy - Street Concept</h3>
+<p class="project-category">concepts shooting</p>
+</a></li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item=""><a href="https://photos.app.goo.gl/pKfrpFM71tucVF1L6">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Minh Khuê + Bình Nhi - Concept Tết" loading="lazy" src="assets/images/Portfolio/susu_bn_tet.jpg"/>
+</figure>
+<h3 class="project-title">Minh Khuê + Bình Nhi - Concept Tết</h3>
+<p class="project-category">concepts shooting</p>
+</a></li>
+<li class="project-item active" data-category="concepts shooting" data-filter-item=""><a href="https://photos.app.goo.gl/ioQ93GHeEhbdjY8v8">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Nguyễn Vân - Concepts Tết" loading="lazy" src="assets/images/Portfolio/tvan_tet.jpg"/>
+</figure>
+<h3 class="project-title">Nguyễn Vân - Concepts Tết</h3>
+<p class="project-category">concepts shooting</p>
+</a></li>
+<li class="project-item active" data-category="events shooting" data-filter-item=""><a href="https://photos.app.goo.gl/QMXE1shjB8TAiPdH9">
+<figure class="project-img">
+<div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img alt="Wean Lê - AI Volution - Audience Shooting" loading="lazy" src="assets/images/Portfolio/weanle_aivolution.jpg"/>
+</figure>
+<h3 class="project-title">Wean Lê - AI Volution - Audience Shooting</h3>
+<p class="project-category">events shooting</p>
+</a></li>
+</ul>
+</section>
+</article>
+</div>
+</main>
+<script src="./assets/js/script.js"></script>
+<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
